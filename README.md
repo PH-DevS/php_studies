@@ -2,8 +2,7 @@
 
 Básico para aplicações em PHP
 
-![PHP Logo](img/logo-php.jpg)
-
+<img src="img/php-logo.svg" height="150px"/>
 
 ### Sintaxe Básica
 - Variáveis 
