@@ -5,19 +5,12 @@
  <title>Autoatividade</title>
  </head>
  <body>
- <ul>
+ 
  <?php
- $arrayUniasselvi = array ("U", "N", "I", "A", "S", "S", "E", "L", "V", "I");
- foreach ($arrayUniasselvi as $indice => $valor) {
+	$arrayUniasselvi = array ("U", "N", "I", "A", "S", "S", "E", "L", "V", "I");
+		foreach ($arrayUniasselvi as $indice => $valor) {
+			print_r ($indice . ": ". $valor . "<br>");
+		}
  ?>
- <li>
- <?php
- echo $indice.": ".$valor;
- ?>
- </li>
- <?php
- }
- ?>
- </ul>
  </body>
 </html>
